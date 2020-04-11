@@ -3,7 +3,7 @@ import dash
 import dash_html_components as html
 import dash_core_components as dcc
 from dash.dependencies import Input, Output
-
+ignore=True
 tips = px.data.tips()
 col_options = [dict(label=x, value=x) for x in tips.columns]
 dimensions = ["x", "y", "color", "facet_col", "facet_row"]
